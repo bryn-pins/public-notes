@@ -1,0 +1,15 @@
+---
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mfontanini/presenterm/master/config-file-schema.json
+defaults:
+  # # override the terminal font size when in windows or when using sixel.
+  terminal_font_size: 10
+  image_protocol: "sixel"
+  theme: tokyonight-storm
+  # max_columns: 100
+  #catppuccin-frappe, catppuccin-latte, catppuccin-macchiato, catppuccin-mocha, dark, gruvbox-dark, light, terminal-dark, terminal-light, tokyonight-storm
+
+options:
+  # whether slides are automatically terminated when a slide title is found.
+  # implicit_slide_ends: true
+  # whether to treat a thematic break as a slide end.
+  end_slide_shorthand: true
